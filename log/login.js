@@ -21,8 +21,8 @@ function sendLoginRequest(username, password) {
         if (this.readyState === 4 && this.status === 200) {
             // Manejar la respuesta del servidor
             if (this.responseText === "success") {
-                // Redirigir a la página de conexión.php
-                window.location.href = "../conexion.phop";
+                // Redirigir a la página de conexion.html
+                window.location.href = "../conexion.html";
             } else {
                 alert("Credenciales incorrectas. Inténtelo de nuevo.");
             }
